@@ -89,3 +89,15 @@ a:active {
         background-color: lightpink;
     }
 }
+
+#practice_tags ~ #to_do_list{
+
+}
+
+#practice_tags + #to_do_list{
+
+}
+
+h3.box {
+    color: green
+}
