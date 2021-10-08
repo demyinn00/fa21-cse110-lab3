@@ -14,13 +14,14 @@
     border-style: dotted;
     border-color: rgb(255, 0, 0);
     border-radius: 30px;
+    display: flex;
 }
 
 #content {
     padding: 25px 50px 75px 100px;
 }
 
-#to_do_list {
+.box > #to_do_list {
     font-size: 1.5cm;
     color: hsl(14, 100%, 21%);
     text-decoration: underline;
@@ -47,6 +48,10 @@
     margin: 2;
 }
 
+p h3 {
+    color: pink;
+}
+
 p {
     position: relative;
 }
@@ -54,6 +59,7 @@ p {
 h3 {
     position: sticky;
     display: inline;
+    display: grid;
 }
 
 a {
@@ -71,4 +77,15 @@ button:hover {
 
 a:active {
     color: red;
+}
+
+#practice_tags {
+    display: flex;
+    display: grid;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightpink;
+    }
 }
