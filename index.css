@@ -19,3 +19,26 @@
     padding: 25px 50px 75px 100px;
 }
 
+#to_do_list {
+    font-size: 1.5cm;
+    color: hsl(14, 100%, 21%);
+    text-decoration: underline;
+    text-align: center;
+}
+
+#attendance {
+    font-size: .35in;
+}
+
+#list1 {
+    font-size: .5em;
+}
+
+#list2 {
+    font-size: 3rem;
+}
+
+#list3 {
+    font-size: 3ch;
+}
+
