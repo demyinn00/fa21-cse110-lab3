@@ -8,6 +8,7 @@
     background-color: #a9d1f5;
     border-top: 1px solid black;
     border-width: 5px;
+    width: 100;
     height: 200px;
     margin: auto;
     border-style: dotted;
@@ -42,3 +43,19 @@
     font-size: 3ch;
 }
 
+* {
+    margin: 2;
+}
+
+p {
+    position: relative;
+}
+
+h3 {
+    position: sticky;
+}
+
+a {
+    max-width: fit-content;
+    min-width: none;
+}
