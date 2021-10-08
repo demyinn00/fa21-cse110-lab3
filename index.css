@@ -53,9 +53,22 @@ p {
 
 h3 {
     position: sticky;
+    display: inline;
 }
 
 a {
     max-width: fit-content;
     min-width: none;
+}
+
+li, form{
+    display: inline-block;
+}
+
+button:hover {
+    color: blue
+}
+
+a:active {
+    color: red;
 }
